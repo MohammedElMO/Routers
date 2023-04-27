@@ -6,7 +6,7 @@ export default [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
       price: 80,
       id: 1,
-      btn_variant: { color: "orange", label: "Simple" },
+      btn_variant: { color: "-orange-", label: "Simple" },
       imageUrl: "/src/assets/vens/van",
       hosted:"123"
     },
@@ -16,7 +16,7 @@ export default [
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
       id: 2,
-      btn_variant: { color: "green", label: "Rugged" },
+      btn_variant: { color: "-orange-", label: "Rugged" },
       imageUrl: "/src/assets/vens/van",
       hosted:"123"
 
@@ -26,7 +26,7 @@ export default [
       price: 100,
       id: 3,
       hosted:"123",
-      btn_variant: { color: "pink", label: "Luxery" },
+      btn_variant: { color: "-orange-", label: "Luxery" },
       imageUrl: "/src/assets/vens/van",
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
@@ -36,16 +36,16 @@ export default [
       price: 120,
       id: 4,
       hosted:"123",
-      btn_variant: { color: "orange", label: "Simple" },
+      btn_variant: { color:"-orange-", label: "Simple" },
       imageUrl: "/src/assets/vens/van",
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
     },
     {
-      title: "Green Wonder",
+      title: "orange Wonder",
       price: 70,
       id: 5,
-      btn_variant: { color: "pink", label: "Luxery" },
+      btn_variant: { color: "-orange-", label: "Luxery" },
       imageUrl: "/src/assets/vens/van",
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
@@ -54,7 +54,7 @@ export default [
       title: "The Cruiser",
       price: 56,
       id: 6,
-      btn_variant: { color: "green ", label: "Rugged" },
+      btn_variant: { color: "-orange-", label: "Rugged" },
       imageUrl: "/src/assets/vens/van",
       description:
         "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, non eius asperiores magni fugiat unde quam, ipsum rem dolor quasi iste! Earum architecto laudantium, libero culpa itaque cum porro animi",
