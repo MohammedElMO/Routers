@@ -10,27 +10,35 @@ import LayOut from "./components/layout/LayOut";
 import SubVensDetails from "./routes/pages/SubNaVans/SunVensDetails";
 import SubVens from "./routes/pages/SubNaVans/Vens";
 import { VanDetails, Vens } from "./routes/pages/vens/";
+import {
+  Details,
+  Photos,
+  Pricing,
+} from "./routes/pages/SubNaVans/HostVanNavBarChilds";
 
 function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route element={<LayOut />}>
-          <Route path="/" element={<Home />} />
+        <Route path="/" element={<LayOut />}>
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
 
-          <Route path="/host" element={<HostNavBar />}>
+          <Route path="host" element={<HostNavBar />}>
             <Route index element={<DashBoard />} />
             <Route path="review" element={<Reviews />} />
             <Route path="income" element={<Income />} />
             <Route path="vans" element={<SubVens />} />
-            <Route path="vans/:id" element={<SubVensDetails />} />
-          </Route>
+              <Route path="vans/:id" element={<SubVensDetails />} >
+                    <Route index element={<Details />} />
+                    <Route path="pricing" element={<Pricing />} />
+                    <Route path="photos" element={<Photos />} />
+              </Route>
 
-          <Route path="vens" element={<Vens />} />
-          <Route element={<HostVanNavBar />}>
-            <Route path="/vens/:id" element={<VanDetails />} />
           </Route>
+            <Route path="vens" element={<Vens />} />
+              <Route path="vens/:id" element={<VanDetails />} />
+
         </Route>
       </Routes>
     </React.Fragment>
